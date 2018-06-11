@@ -7,7 +7,8 @@
 .myTitle{
   position: absolute;
   top: 20%;
-  width: 500px;
+  /* left: 70px;
+  width: 500px; */
   background-color: rgba(233, 211, 85, 0.4);
   color: rgba(12, 10, 8, 0.4);
   box-shadow: 2px 2px 4px 4px goldenrod;
