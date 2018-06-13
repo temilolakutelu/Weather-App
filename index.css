@@ -1,36 +1,48 @@
-/* #other-cities{
-  margin-left: 150px; 
-} */
-.thumbnail{
-  position:relative;
+#container{
+  background: url(weather1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.myTitle{
-  position: absolute;
-  top: 20%;
-  /* left: 70px;
-  width: 500px; */
-  background-color: rgba(233, 211, 85, 0.4);
-  color: rgba(12, 10, 8, 0.4);
-  box-shadow: 2px 2px 4px 4px goldenrod;
+#header{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(240, 184, 44, 0.3);
 }
-#main{
-  position: absolute;
-  top: 70%;
-  
+.title-text {
+  color: rgba(245, 235, 212, 0.9);
 }
-#input{
-  width: 300px;
-  height: 40px;
-  background-color: rgba(245, 231, 156, 0.6);
+#main {
+  top: 300px;
 }
-#input:focus{
+#toggleBtn{
+  margin-left: 45%;
+}
+#input:hover,
+focus {
+  background-color: rgb(226, 176, 128);
+}
+#btn:hover,
+active {
+  background-color: goldenrod;
+}
+input,
+#btn:focus {
   outline: none;
 }
-#btn{
-  width: 50px;
-  height: 50px;
-  border-radius: 40px;
-  background-color: rgba(224, 194, 22, 0.89);
- font-size: 10px;
- color: aliceblue;
+#weatherReport{
+  padding:5%;
+  margin-top: 5%;
 }
+.card {
+  width: 400px;
+}
+#temp {
+  font-size: 35px;
+}
+#weatherDetail {
+  font-size: 30px;
+}
+.card-text {
+  font-size: 13px;
+}
+ 
